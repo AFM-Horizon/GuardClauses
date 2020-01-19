@@ -31,6 +31,9 @@ If you like or are using this project please give it a star. Thanks!
 - **Guard.Against.OutOfRange** (throws if integer/DateTime/enum input is outside a provided range)
 - **Guard.Against.OutOfSQLDateRange** (throws if DateTime input is outside the valid range of SQL Server DateTime values)
 - **Guard.Against.Zero** (throws if number input is zero)
+- **Guard.Against.Negative** (throws if number input is negative)
+- **Guard.Against.NegativeOrZero** (throws if number input is negative or zero)
+- **Guard.Against.Default** (throws if input is the default for that type)
 
 ## Extending with your own Guard Clauses
 
